@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Webpay.Integration.CSharp.Test.Hosted.Helper.HostedRowFormatterTest" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAECAAMAgAAAAEAIAAAAEAAAAAAAAAAERAAAAAA=</HashCode>
+      <FileName>Hosted\Helper\HostedRowFormatterTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Test.Hosted.Helper.HostedXmlBuilderTest" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAACAIAoAAAAAgIoBEAAAEACAoAAAAAAAAAA=</HashCode>
+      <FileName>Hosted\Helper\HostedXmlBuilderTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Test.Hosted.Helper.PaymentFormTest" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAQAAAAAABAAAAAAAAAAAIEgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Hosted\Helper\PaymentFormTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Test.Hosted.HostedPaymentsRequestTest" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Hosted\HostedPaymentsRequestTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Test.Hosted.Payment.CardPaymentTest" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAgAAAAAAAAAgAAAAAAEAAAAAAgAAAA=</HashCode>
+      <FileName>Hosted\Payment\CardPaymentTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Test.Hosted.Payment.DirectPaymentTest" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAIAAAAAAAAAAAAAAAAAAAAgEAAA=</HashCode>
+      <FileName>Hosted\Payment\DirectPaymentTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Test.Hosted.Payment.FakeHostedPayment" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACIAAAAAAAAQAAAAAAAAAAQAAAACIAAAAACAAA=</HashCode>
+      <FileName>Hosted\Payment\FakeHostedPayment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Test.Hosted.Payment.HostedPaymentTest" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JAQSAAAAAAAAAEACQAAgAAAAAABAIAUDAABAAAACAAI=</HashCode>
+      <FileName>Hosted\Payment\HostedPaymentTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Test.Hosted.Payment.PaymentMethodTest" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAQAAAAAAAAAAAAAQAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Hosted\Payment\PaymentMethodTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Test.Hosted.Payment.PayPagePaymentTest" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACQAAIAAAACCBAAEgAAgIAAAEAAAAiIAYAAAABEAAA=</HashCode>
+      <FileName>Hosted\Payment\PayPagePaymentTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Test.Order.NewOrderBuilderTest" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Order\NewOrderBuilderTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Test.Order.OrderBuilderTest" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAFAAgUCAAAAEAggAACAAAAAAoCAAAAYACAAAEAEKAA=</HashCode>
+      <FileName>Order\OrderBuilderTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Test.Order.VoidValidator" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Order\VoidValidator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Test.Order.Validator.HostedOrderValidatorTest" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAIAAAEAAAAEABgAAAAAAAAgAAAAEAQQAQgAABAAIAA=</HashCode>
+      <FileName>Order\Validator\HostedOrderValidatorTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Test.Order.Validator.WebServiceOrderValidatorTest" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FIACAgAEQBCBGA6QMgAAAEAGAAAggAQAYEgABAAIAIA=</HashCode>
+      <FileName>Order\Validator\WebServiceOrderValidatorTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Test.Response.HostedPaymentResponseTest" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>sAAgAAAAAAAgACAAAAAAAQAAAAAAAAAAABAAAAAIAAA=</HashCode>
+      <FileName>Response\HostedPaymentResponseTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Test.Util.Security.Base64UtilTest" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAgQAgAAAAAA=</HashCode>
+      <FileName>Util\Security\Base64UtilTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Test.Util.Security.HashUtilTest" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\Security\HashUtilTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Test.WebpayConnectionUnitTest" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BQAAAAAAACAAAAAAAJAAACABAAAEABAAAAAAAAAAAAA=</HashCode>
+      <FileName>WebpayConnectionUnitTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Test.Webservice.Handleorder.DeliverOrderTest" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAQgIAAAAAAAAAAAAAAAgAAEAAAAAAAA=</HashCode>
+      <FileName>Webservice\Handleorder\DeliverOrderTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Test.Webservice.Helper.ConverterTest" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAABAAAAgBABAAAQEABAAAAAYAAAQRBCA=</HashCode>
+      <FileName>Webservice\Helper\ConverterTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Test.Webservice.Helper.PeppolIdTest" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Webservice\Helper\PeppolIdTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Test.Webservice.Helper.WebserviceRowFormatterTest" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAACAECAACEAQAAAgAAAACAEAAEAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Webservice\Helper\WebserviceRowFormatterTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Test.Webservice.Payment.FixedDiscountRowsTest" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EQAAAEAAAAAAQAAAQAAAAMEAAAAAAAEAAAAAwCAAAAI=</HashCode>
+      <FileName>Webservice\Payment\FixedDiscountRowsTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Test.Webservice.Payment.InvoicePaymentTest" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAIAAEAAAAAAAABIAiEAIAAgMIQABAAAAA=</HashCode>
+      <FileName>Webservice\Payment\InvoicePaymentTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Test.Webservice.Payment.PaymentPlanTest" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Webservice\Payment\PaymentPlanTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Test.Webservice.Payment.RelativeDiscountRowsTest" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Webservice\Payment\RelativeDiscountRowsTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

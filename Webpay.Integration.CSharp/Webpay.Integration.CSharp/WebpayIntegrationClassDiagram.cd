@@ -1,0 +1,3053 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Webpay.Integration.CSharp.AdminService.AddOrderRowsRequest" Collapsed="true">
+    <Position X="1.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>AdminService\AddOrderRowsRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminService.AnnulTransactionRequest" Collapsed="true">
+    <Position X="112.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>AdminService\AnnulTransactionRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminService.CancelOrderRequest" Collapsed="true">
+    <Position X="4" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>AdminService\CancelOrderRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminService.CancelOrderRowsRequest" Collapsed="true">
+    <Position X="6.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>AdminService\CancelOrderRowsRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminService.ConfirmPartialTransactionRequest" Collapsed="true">
+    <Position X="8.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>AdminService\ConfirmPartialTransactionRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminService.ConfirmTransactionRequest" Collapsed="true">
+    <Position X="10.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>AdminService\ConfirmTransactionRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminService.CreditAmountRequest" Collapsed="true">
+    <Position X="118" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>AdminService\CreditAmountRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminService.CreditInvoiceOrderRowsRequest" Collapsed="true">
+    <Position X="13" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>AdminService\CreditInvoiceOrderRowsRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminService.CreditPaymentPlanOrderRowsRequest" Collapsed="true">
+    <Position X="15.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>AdminService\CreditPaymentPlanOrderRowsRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminService.CreditTransactionRequest" Collapsed="true">
+    <Position X="123.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>AdminService\CreditTransactionRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminService.DeliverOrderRowsRequest" Collapsed="true">
+    <Position X="17.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>AdminService\DeliverOrderRowsRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminService.DeliverOrdersRequest" Collapsed="true">
+    <Position X="19.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>AdminService\DeliverOrdersRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminService.GetOrdersRequest" Collapsed="true">
+    <Position X="22" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>AdminService\GetOrdersRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminService.LowerTransactionRequest" Collapsed="true">
+    <Position X="24.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>AdminService\LowerTransactionRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminService.QueryTransactionRequest" Collapsed="true">
+    <Position X="118" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>AdminService\QueryTransactionRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminService.UpdateOrderRequest" Collapsed="true">
+    <Position X="26.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>AdminService\UpdateOrderRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminService.UpdateOrderRowsRequest" Collapsed="true">
+    <Position X="28.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>AdminService\UpdateOrderRowsRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminService.WebpayAdminRequest" Collapsed="true">
+    <Position X="15.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAgAAAAAAAAAAAAAAAAAAAAAAAQAAgCAABABAAAAA=</HashCode>
+      <FileName>AdminService\WebpayAdminRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Config.SveaConfig" Collapsed="true">
+    <Position X="128.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQAABAAAQAAAAAAAAAJoAQAAAAAAAAAyAAAAAAAAAA=</HashCode>
+      <FileName>Config\SveaConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Config.SveaTestConfigurationProvider" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="130.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAACAAAAAAEAAgACAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Config\SveaTestConfigurationProvider.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Exception.SveaWebPayException" Collapsed="true">
+    <Position X="23.5" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exception\SveaWebPayException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Exception.SveaWebPayValidationException" Collapsed="true">
+    <Position X="23.5" Y="26" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exception\SveaWebPayValidationException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Hosted.Admin.Actions.Annul" Collapsed="true">
+    <Position X="111" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Hosted\Admin\Actions\Annul.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Hosted.Admin.Actions.CancelRecurSubscription" Collapsed="true">
+    <Position X="123.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Hosted\Admin\Actions\CancelRecurSubscription.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Hosted.Admin.Actions.Confirm" Collapsed="true">
+    <Position X="121.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAACAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Hosted\Admin\Actions\Confirm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Hosted.Admin.Actions.ConfirmPartial" Collapsed="true">
+    <Position X="123.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAKAAAACAAABAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Hosted\Admin\Actions\ConfirmPartial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Hosted.Admin.Actions.Credit" Collapsed="true">
+    <Position X="116.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAACAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Hosted\Admin\Actions\Credit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Hosted.Admin.Actions.GetPaymentMethods" Collapsed="true">
+    <Position X="116.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Hosted\Admin\Actions\GetPaymentMethods.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Hosted.Admin.Actions.GetReconciliationReport" Collapsed="true">
+    <Position X="119.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Hosted\Admin\Actions\GetReconciliationReport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Hosted.Admin.Actions.LowerAmount" Collapsed="true">
+    <Position X="121.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAACAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Hosted\Admin\Actions\LowerAmount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Hosted.Admin.Actions.LowerAmountConfirm" Collapsed="true">
+    <Position X="123.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAACAAAAAAAAAAAAAAACAAAABAAAA=</HashCode>
+      <FileName>Hosted\Admin\Actions\LowerAmountConfirm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Hosted.Admin.Actions.Query" Collapsed="true">
+    <Position X="16.75" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Hosted\Admin\Actions\Query.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Hosted.Admin.Actions.QueryByClientOrderNumber" Collapsed="true">
+    <Position X="15.5" Y="27.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Hosted\Admin\Actions\QueryByClientOrderNumber.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Hosted.Admin.Actions.QueryByCustomerRefNo" Collapsed="true">
+    <Position X="15.5" Y="25.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Hosted\Admin\Actions\QueryByCustomerRefNo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Hosted.Admin.Actions.QueryByTransactionId" Collapsed="true">
+    <Position X="17.75" Y="25.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Hosted\Admin\Actions\QueryByTransactionId.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Hosted.Admin.Actions.ReconciliationTransaction" Collapsed="true">
+    <Position X="119.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAQAAAAAAAAACAAAACACAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Hosted\Admin\Actions\ReconciliationTransaction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Hosted.Admin.Actions.Recur" Collapsed="true">
+    <Position X="121.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQEADAAAAAAAAAAACACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Hosted\Admin\Actions\Recur.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Hosted.Admin.HostedActionRequest" Collapsed="true">
+    <Position X="125" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAACAAAgAAADAAAAAAAAAAAAABgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Hosted\Admin\HostedActionRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Hosted.Admin.HostedAdmin" Collapsed="true">
+    <Position X="126.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAIAAAQCCABAAAQAAQAAAAAAggAAAAAEAAQAAA=</HashCode>
+      <FileName>Hosted\Admin\HostedAdmin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Hosted.Admin.HostedAdminRequest" Collapsed="true">
+    <Position X="128.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAhBAAAAAAAAAAAAAAAAIAAgAAAAAAIAhAAAA=</HashCode>
+      <FileName>Hosted\Admin\HostedAdminRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Hosted.Admin.HostedAdminResponse" Collapsed="true">
+    <Position X="130.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAABBAAAAAAAAAAAIAAAAIIAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Hosted\Admin\HostedAdminResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Hosted.Admin.Response.AnnulResponse" Collapsed="true">
+    <Position X="17.25" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Hosted\Admin\Response\AnnulResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Hosted.Admin.Response.CancelRecurSubscriptionResponse" Collapsed="true">
+    <Position X="10.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Hosted\Admin\Response\CancelRecurSubscriptionResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Hosted.Admin.Response.ConfirmPartialResponse" Collapsed="true">
+    <Position X="19.5" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Hosted\Admin\Response\ConfirmPartialResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Hosted.Admin.Response.ConfirmResponse" Collapsed="true">
+    <Position X="21.75" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Hosted\Admin\Response\ConfirmResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Hosted.Admin.Response.CreditResponse" Collapsed="true">
+    <Position X="24" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Hosted\Admin\Response\CreditResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Hosted.Admin.Response.CustomerRefNoResponseBase" Collapsed="true">
+    <Position X="24" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Hosted\Admin\Response\CustomerRefNoResponseBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Hosted.Admin.Response.GetPaymentMethodsResponse" Collapsed="true">
+    <Position X="12.75" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Hosted\Admin\Response\GetPaymentMethodsResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Hosted.Admin.Response.GetReconciliationReportResponse" Collapsed="true">
+    <Position X="15" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Hosted\Admin\Response\GetReconciliationReportResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Hosted.Admin.Response.LowerAmountConfirmResponse" Collapsed="true">
+    <Position X="26.25" Y="24.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Hosted\Admin\Response\LowerAmountConfirmResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Hosted.Admin.Response.LowerAmountResponse" Collapsed="true">
+    <Position X="26.25" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Hosted\Admin\Response\LowerAmountResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Hosted.Admin.Response.QueryResponse" Collapsed="true">
+    <Position X="28.5" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Hosted\Admin\Response\QueryResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Hosted.Admin.Response.Transaction" Collapsed="true">
+    <Position X="111" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BiFBAAAUEAKAAAAAAAAAAAGACglBgAQBAAAAAEgCEAA=</HashCode>
+      <FileName>Hosted\Admin\Response\QueryResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Hosted.Admin.Response.TransactionOrderRow" Collapsed="true">
+    <Position X="114.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAACgAAAAIAAAAASAAAAAAAAAEAAAgAAAAAA=</HashCode>
+      <FileName>Hosted\Admin\Response\QueryResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Hosted.Admin.Response.TransactionCustomer" Collapsed="true">
+    <Position X="112.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACACQEAAACAAAIAIAACACAAAAHIAAAACAAAAIAAAAAg=</HashCode>
+      <FileName>Hosted\Admin\Response\QueryResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Hosted.Admin.Response.RecurResponse" Collapsed="true">
+    <Position X="30.75" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACBBAAAAEAAAAAAAAAAAAACACAkAAAAAAABAAAAAEAA=</HashCode>
+      <FileName>Hosted\Admin\Response\RecurResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Hosted.Admin.Response.SpecificHostedAdminResponseBase" Collapsed="true">
+    <Position X="20.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAQAAAAAAAAAAAQACAQAAQAAAAAAAAoAAAAAAABAA=</HashCode>
+      <FileName>Hosted\Admin\Response\SpecificHostedAdminResponseBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Hosted.Admin.Response.TransactionIdResponseBase" Collapsed="true">
+    <Position X="24" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Hosted\Admin\Response\TransactionIdResponseBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Hosted.Helper.ExcludePayments" Collapsed="true">
+    <Position X="119.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAABAEAAAAAAAAAAAAAAAAAAAAAAAAACBAAAAAAE=</HashCode>
+      <FileName>Hosted\Helper\ExcludePayments.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Hosted.Helper.HostedRowFormatter&lt;T&gt;" Collapsed="true">
+    <Position X="111" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIQAAAAgAIAAAACACKAABAAAAAAAAAGAAAQAAAACCA=</HashCode>
+      <FileName>Hosted\Helper\HostedRowFormatter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Hosted.Helper.HostedXmlBuilder" Collapsed="true">
+    <Position X="112.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAIAAIAACAAAAAAAAAAAQAAAAAAAAAIAAAAAAAAAAg=</HashCode>
+      <FileName>Hosted\Helper\HostedXmlBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Hosted.Helper.PaymentForm" Collapsed="true">
+    <Position X="118" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oJAACAAABABAEAASSIAIgAEKAQwAQQAAAAAAQlAIBQU=</HashCode>
+      <FileName>Hosted\Helper\PaymentForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Hosted.HostedOrderRowBuilder" Collapsed="true">
+    <Position X="109.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAIQgAgAAKAAAFIAAKCACAAAgQAAAAAABgQAAABAI=</HashCode>
+      <FileName>Hosted\HostedOrderRowBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Hosted.Payment.CardPayment" Collapsed="true">
+    <Position X="0.75" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACIAAAAAAAAQAAAAAAAAAAQAAAACIAAAAACAAA=</HashCode>
+      <FileName>Hosted\Payment\CardPayment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Hosted.Payment.DirectPayment" Collapsed="true">
+    <Position X="3" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACIAAAAAAAAQAAAAAAAAAAQAAAACIAAAAACAAA=</HashCode>
+      <FileName>Hosted\Payment\DirectPayment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Hosted.Payment.HostedPayment" Collapsed="true">
+    <Position X="4" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kAAAAAIMwECAYCAgQCSACACAAQgBAAoAACIAAAgECAg=</HashCode>
+      <FileName>Hosted\Payment\HostedPayment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Hosted.Payment.PaymentMethodPayment" Collapsed="true">
+    <Position X="5.25" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACIAAAAAKAAQAAAEAAAAAAQAAAACIAIEAECAAA=</HashCode>
+      <FileName>Hosted\Payment\PaymentMethodPayment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Hosted.Payment.PayPagePayment" Collapsed="true">
+    <Position X="7.5" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EBAAAACIAAEAAgBIQAAAAAAgEAAUAAAAiIAIQAECAAA=</HashCode>
+      <FileName>Hosted\Payment\PayPagePayment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Hosted.Payment.SubscriptionType" Collapsed="true">
+    <Position X="126.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACEAAAAAAAAAAAQAIAAAAAgAAAAAAA=</HashCode>
+      <FileName>Hosted\Payment\SubscriptionType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Order.Builder&lt;T&gt;" Collapsed="true">
+    <Position X="14" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAIAICAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Order\Builder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Order.OrderBuilder&lt;T&gt;" Collapsed="true">
+    <Position X="5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAAAAAQAAEAAAAQDgIAEAAAABAAAAAAAACAIAABIA=</HashCode>
+      <FileName>Order\OrderBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Order.Create.CreateOrderBuilder" Collapsed="true">
+    <Position X="4" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FAAUEGAAQAAEIKAIKpwCQACkQgAA8BIAiBCCACIIKGA=</HashCode>
+      <FileName>Order\Create\CreateOrderBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Order.Handle.AddOrderRowsBuilder" Collapsed="true">
+    <Position X="8.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAQAAAAAAAIAAAgACAAAAAABAAAAAAAACAAAAAgA=</HashCode>
+      <FileName>Order\Handle\AddOrderRowsBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Order.Handle.CancelOrderBuilder" Collapsed="true">
+    <Position X="10.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAQAAAAEAAIAAAgAAAQQAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Order\Handle\CancelOrderBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Order.Handle.CancelOrderRowsBuilder" Collapsed="true">
+    <Position X="13" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgADAQAAABABQIAAAgAAAAQAAAAAAAAAAAQgAAAAAAA=</HashCode>
+      <FileName>Order\Handle\CancelOrderRowsBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Order.Handle.CloseOrderBuilder" Collapsed="true">
+    <Position X="114.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAQAAICAAAIAIAAAAAAAQAAgAAAQAAgAAABAAAAA=</HashCode>
+      <FileName>Order\Handle\CloseOrderBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Order.Handle.CreditAmountBuilder" Collapsed="true">
+    <Position X="15.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQACABAAAAAgAIAAIgAiAgAAAAAAAAAAAAAgAAAEAAA=</HashCode>
+      <FileName>Order\Handle\CreditAmountBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Order.Handle.CreditOrderRowsBuilder" Collapsed="true">
+    <Position X="17.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BQACAAAAAAAAAIEAAgAACAAAAAAAAAAIQAAAAIFAAAA=</HashCode>
+      <FileName>Order\Handle\CreditOrderRowsBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Order.Handle.DeliverOrderBuilder" Collapsed="true">
+    <Position X="6.25" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAASBAYCAEgICIABgAABIQAgIAgARAQkACAgAAIAE=</HashCode>
+      <FileName>Order\Handle\DeliverOrderBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Order.Handle.DeliverOrderRowsBuilder" Collapsed="true">
+    <Position X="19.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgACAQAAAAEAAIBAAqAAAAAAAAAAAAAAQCQgAAEAASA=</HashCode>
+      <FileName>Order\Handle\DeliverOrderRowsBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Order.Handle.DeliverOrdersBuilder" Collapsed="true">
+    <Position X="22" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAIAAAgCAAAIAAACAAAAAQAAAAAEAAAI=</HashCode>
+      <FileName>Order\Handle\DeliverOrdersBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Order.Handle.QueryOrderBuilder" Collapsed="true">
+    <Position X="24.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABACAQAAAAAAAIAAAgAAAAAAAQAAABAAAAIgAAAAAAA=</HashCode>
+      <FileName>Order\Handle\QueryOrderBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Order.Handle.UpdateOrderBuilder" Collapsed="true">
+    <Position X="26.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAgAQAAAAAAAIAAAgAAAAAAAgAACBAAAAAAACAAgAA=</HashCode>
+      <FileName>Order\Handle\UpdateOrderBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Order.Handle.UpdateOrderRowsBuilder" Collapsed="true">
+    <Position X="1.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgACEQAAAAAAAIAAAgAAAAAAAgAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Order\Handle\UpdateOrderRowsBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Order.Identity.CompanyCustomer" Collapsed="true">
+    <Position X="10.5" Y="24.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgQAABIAAAAAAAABZAAQEAABAAAIAAAAAAAAAAoA=</HashCode>
+      <FileName>Order\Identity\CompanyCustomer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Order.Identity.Customer&lt;T&gt;" Collapsed="true">
+    <Position X="11.75" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MEEAgUAADKCAAAAAAAARABAAAAAAAAoIAAAAAAAAAAA=</HashCode>
+      <FileName>Order\Identity\Customer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Order.Identity.IndividualCustomer" Collapsed="true">
+    <Position X="12.75" Y="24.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAgQAAJIAAAABAAAARAAAAAAAAAgIAAAQAQAACAgA=</HashCode>
+      <FileName>Order\Identity\IndividualCustomer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Order.Row.FixedDiscountBuilder" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="125" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIEQIAgAwDACCIAEIAACIgAAAAABAAAAAgAAQAAABAI=</HashCode>
+      <FileName>Order\Row\FixedDiscountBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Order.Row.InvoiceFeeBuilder" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="123.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIEQIAgAwBACAAAEIAACKgAAAAABAAAAAgIAQAAABAI=</HashCode>
+      <FileName>Order\Row\InvoiceFeeBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Order.Row.Item" Collapsed="true">
+    <Position X="118" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAoAAABAAABAAAAAAAAACAAAAABAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Order\Row\Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Order.Row.NumberedOrderRowBuilder" Collapsed="true">
+    <Position X="20.5" Y="25.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAQAAgAAAAAAIAAAAACKoAFQAACgAAAIAggQIACAAA=</HashCode>
+      <FileName>Order\Row\NumberedOrderRowBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Order.Row.OrderRowBuilder" Collapsed="true">
+    <Position X="20.5" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIEQKAgAwBACAAAFIAACKgABQBABAAAAAgogQAAABAI=</HashCode>
+      <FileName>Order\Row\OrderRowBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Order.Row.RelativeDiscountBuilder" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="125" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIEAIAgAgCACCIAEIAACKAAAAAAAAAAAAgIAQAAABAI=</HashCode>
+      <FileName>Order\Row\RelativeDiscountBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Order.Row.ShippingFeeBuilder" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="121.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIEQIAiAwBACAAAEIAACKkAAAAQBAAAAAgIAQAAABAI=</HashCode>
+      <FileName>Order\Row\ShippingFeeBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Order.Validator.HandleOrderValidator" Collapsed="true">
+    <Position X="121.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAEAACACAAAAAAAAAAAAAAAAAAAAAAEgAAAAAA=</HashCode>
+      <FileName>Order\Validator\HandleOrderValidator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Order.Validator.HostedOrderValidator" Collapsed="true">
+    <Position X="5.5" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAEAgAAAA=</HashCode>
+      <FileName>Order\Validator\HostedOrderValidator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Order.Validator.IdentityValidator" Collapsed="true">
+    <Position X="114.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIACAAAAAAAABAAAAA=</HashCode>
+      <FileName>Order\Validator\IdentityValidator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Order.Validator.OrderValidator" Collapsed="true">
+    <Position X="6.75" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAQABQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Order\Validator\OrderValidator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Order.Validator.WebServiceOrderValidator" Collapsed="true">
+    <Position X="7.75" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAABAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Order\Validator\WebServiceOrderValidator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Response.Hosted.SveaResponse" Collapsed="true">
+    <Position X="17.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACBBCAAIlAAAAggAACEAAACACgkAACAAIAAAAAgAGAQ=</HashCode>
+      <FileName>Response\Hosted\SveaResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Response.Response" Collapsed="true">
+    <Position X="17.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Response\Response.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.BasicResponse" Collapsed="true">
+    <Position X="50" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAQAACAAAAAAAAAAAAAAAAgAAAAAAEACQEAAIgAAA=</HashCode>
+      <FileName>Service References\AdminWS\BasicResponse.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.BasicRequest" Collapsed="true">
+    <Position X="56" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAIAAAAAAAAAAAAgAAAEAAEgAAAAAIEAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.Authentication" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="114.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAQAABAAAgAAAAAAGAAAAAAIACAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.GetPendingReasonsRequest" Collapsed="true">
+    <Position X="19" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAgCAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.CancelAccountCreditAmountRequest" Collapsed="true">
+    <Position X="25.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAABAAAgAAAAoAAAAAAAAAAgAAAgAAAAEAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.CancelAccountCreditRowsRequest" Collapsed="true">
+    <Position X="32.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAggAAAAAAAAAgAAAgAAQAEAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.GetClientIdRequest" Collapsed="true">
+    <Position X="39.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.AccountCreditRegressReportRequest" Collapsed="true">
+    <Position X="46" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAgAAAAAAEAACgAAAAAAAEBAABAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.AccountingAgreementType25ReportRequest" Collapsed="true">
+    <Position X="50.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAEAACgAAAAAAAABAABAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.GetSpecificationReportRequest" Collapsed="true">
+    <Position X="55" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAgAAAAAAEAACgAAAAAAAABAEBAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.GetClientsByIdentityAccountRequest" Collapsed="true">
+    <Position X="59.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.GetInvoicesPaidToClientForReportRequest" Collapsed="true">
+    <Position X="64" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAEAACgAAAAAAAABAABAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.GetDebtInvoicesPaidToClientForReportRequest" Collapsed="true">
+    <Position X="68.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAEAACgAAAAAAAABAABAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.GetKickbackReportRequest" Collapsed="true">
+    <Position X="73" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAgAgAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.CancelOrderRowsRequest" Collapsed="true">
+    <Position X="77.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEggAAAAAAAAAgGAIAAIAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.CancelOrderRequest" Collapsed="true">
+    <Position X="82" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAggAAAAAAAAAgGAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.PartialDeliveryRequest" Collapsed="true">
+    <Position X="86.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAEACAAAAAAAAAAAAIAAAAAACAAEAAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.DeliveryRequest" Collapsed="true">
+    <Position X="91" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAEAAAAAAAAAAAAAAAAAAAAAAAAAAIAAEAAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.SearchOrdersRequest" Collapsed="true">
+    <Position X="95.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEIAACAIAAAAAAAAAIAAABCAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.AddOrderRowsRequest" Collapsed="true">
+    <Position X="100" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAggAAAAAAAABgGAAIAIAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.UpdateOrderRowsRequest" Collapsed="true">
+    <Position X="104.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAAAAAAAAAAAAAAAggAAAAAAAAAgGAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.SearchInvoicesRequest" Collapsed="true">
+    <Position X="5.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAACAAAAAAIAAAAAAAEAAAAABCAAAIAAAAAAAgAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.GetInvoicesRequest" Collapsed="true">
+    <Position X="10" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.CreditInvoiceRequest" Collapsed="true">
+    <Position X="14.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAIAAEACAAAAAAgAAAAAAAAAAgBgAAEAAAAAAACAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.SearchPaymentPlansRequest" Collapsed="true">
+    <Position X="21.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAABCAIAIAAAACAAAAAAAE=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.UpdateOrderRequest" Collapsed="true">
+    <Position X="28" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAoAAAAAggAAIAAAAgAgGAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.SumOfOrderAmountRequest" Collapsed="true">
+    <Position X="34.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.SumOfInvoiceAmountRequest" Collapsed="true">
+    <Position X="41.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.SumOfPaymentPlanAmountRequest" Collapsed="true">
+    <Position X="48.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAIAAAAAACAAAQAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.ApproveInvoiceRequest" Collapsed="true">
+    <Position X="52.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAgAAAAAAAAAAgBAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.CreateOrderRequest" Collapsed="true">
+    <Position X="57.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAGAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.ReleasePendingRequest" Collapsed="true">
+    <Position X="61.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAgAAAAAAAAAAgCAAAEIAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.GetFinancialReportRequest" Collapsed="true">
+    <Position X="66.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAEAACgAAAAAAAABAABAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.GetInvoiceReportRequest" Collapsed="true">
+    <Position X="70.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAEAACgAAAAAAAABAABAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.GetAccountingReportRequest" Collapsed="true">
+    <Position X="75.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAgAAAAACEAACgAAAAAAAABAABAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.GetRegressionReportRequest" Collapsed="true">
+    <Position X="79.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAEAACgAAAAAAAABAABAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.GetPaymentPlanReportRequest" Collapsed="true">
+    <Position X="84.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAEAACgAAAAAAAABAABAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.GetInvoiceJournalReportRequest" Collapsed="true">
+    <Position X="88.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAEAACgAAAAAAAABAABAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.GetInvoicePdfLinkRequest" Collapsed="true">
+    <Position X="93.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAgAAAAAAAAAAgBAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.GetOrderPdfLinkRequest" Collapsed="true">
+    <Position X="97.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAgAAAAAAAAAAgAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.GetOrderEventsRequest" Collapsed="true">
+    <Position X="102.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAABQgAAACAAkAAAgAAAAAAEAAEAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.GetInvoicesWithChangedDueDateRequest" Collapsed="true">
+    <Position X="106.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAEAACAAAAAAAAABAABAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.ChangeInvoiceDueDateRequest" Collapsed="true">
+    <Position X="7.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAIAAAAAAAAAAAgAAAAAAAAIAgBAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.CreateApprovedOrderRequest" Collapsed="true">
+    <Position X="12.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAkBAAAAAAIAAMACAAAAAAGAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.CancelPaymentPlanRowsRequest" Collapsed="true">
+    <Position X="16.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAggAAAAAAAAAhAAAAAAQAAAAAAAQ=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.CancelPaymentPlanAmountRequest" Collapsed="true">
+    <Position X="23.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIIAAAAAAAAgAAAAgAAAAAAAAAAhAAAAAAAAAAAAQAQ=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.SearchAccountCreditsRequest" Collapsed="true">
+    <Position X="30.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAgYAAAAAAAAAAACABCAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.GetAccountCreditsRequest" Collapsed="true">
+    <Position X="37" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.GetOrdersRequest" Collapsed="true">
+    <Position X="43.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.Setting" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="119.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAgAAAAAAAAAQAgAAAAAAEAgAgAAIAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.GetOrderInformation" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="114.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAggAAAAAAgAAgGAAEAIAAAAIAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.CancellationRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="121.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIIAAAACAAAoAIABAAAAEAAAgAAAAAAEAAAAAAIAQAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.DeliverOrderInformation" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="111" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAggAACAAAAAAAAggAAQAAAggAgGAAEAIAAAAIAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.SearchOrderFilter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="111" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACBAAAACgAAAAAAQgAAgCAAggAEABAAGQAAABEIAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.SearchOrderSorting" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="112.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAEAAgAAAAAAAAAAwAAAAAAEAAAQAAIAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.OrderRow" Collapsed="true">
+    <Position X="0.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKAAGARCAAQhgKABIAAAAIkAggJACAAEABAAIAIEAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.NumberedOrderRow" Collapsed="true">
+    <Position X="0.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgIAAEAAAIAAAAAAAAEAAAAAAABAAQAAACAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.SearchInvoiceFilter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="130.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACBABAACgAAAAAAQgAAACAAggAAABAAEAAAADEIAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.SearchInvoiceSorting" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="109.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAACAAAAAgAAAAAAAAAAgAAAAAAEAAAQAAIABAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.GetInvoiceInformation" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="112.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAACAAAAAAAAgAAAAAAAgAAgBAAEAAAAAAIAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.SearchPaymentPlanFilter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="114.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACBAAAACgAAAAACQgAAACAAggAAABAAEAAAABGIAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.SearchPaymentPlanSorting" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="116.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAgAAACAAAAAAgAAAAAAEAAAQAAIAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.CreateOrderInformation" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="128.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CEAAAgASAAogAAAAAhAEIAAAhgBMEQANQAABAAIAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.CreateAccountCreditDetails" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="125" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAgAAAAAAAAAAgAAEAAAEAAAAAAIAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.CreatePaymentPlanDetails" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="114.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgABQCAAAAAgAMAAAAAAAAgAAEAAAEAAAAAAIACAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.CustomerIdentity" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="126.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AiAEAAQCACgAEoAAAACIQCwAiEABAIAFAIcAAgIRAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.Address" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="128.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAECiAAAAEIAAAACIACgAgEAAAIAFAAYAAAIBAAg=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.CompanyIdentity" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="118" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgACAAAAAAAAAAAAAAAAgAAAAAAFAAABAAoAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.IndividualIdentity" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="118" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIECiAAAAAIAAAACAAAQAgAAAAAAEAAAAAAIAAAg=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.CustomerInformation" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="128.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAQCAAAAAIEACAAAQAQBwAAJAAAEAIAAAgIQAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.DeliveryAddress" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="118" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAFCiAAAAEIIIAACIAChAgEAAAIAFAAAAAAYBABg=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.InvoiceAddress" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="121.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAECiAAAAEIIAAACIACgAgEAAAIAFAAAAAAIBABg=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.OrderInformation" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="109.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ChqEAAACAgIAAAUAohSAIQiAgABgEACMQQABAEIkIBA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.AccountCreditInformation" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="112.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAgAAAAAAAAAAgAAEAAAEAAAAAAIAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.InvoiceInformation" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="125" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgCAAAAAAAAAAAAAAAAgAAAAAAEAAAAAAMAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.PaymentPlanInformation" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="123.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgABACAAAAAgAAAAAAAAAAgAAEAAAEAAAAAAIAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.SearchAccountCreditFilter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="126.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACBgAAACgAAAAAAQgAAACIAggAAgRAAEAAAABEIAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.SearchAccountCreditSorting" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="128.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAgAAAAAAAAAAgABAAAAEACAQAAIAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.GetAccountCreditInformation" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="128.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAgAAAAAAAgAAgAAAkAAAAEAIAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.GetSpecificationReportResponse" Collapsed="true">
+    <Position X="74.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAUAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.CancelOrderRowsResponse" Collapsed="true">
+    <Position X="79.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.CancelOrderResponse" Collapsed="true">
+    <Position X="83.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.DeliveryResponse" Collapsed="true">
+    <Position X="88.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.SearchOrdersResponse" Collapsed="true">
+    <Position X="92.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAQAABAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.AddOrderRowsResponse" Collapsed="true">
+    <Position X="5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.UpdateOrderRowsResponse" Collapsed="true">
+    <Position X="9.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.SearchInvoicesResponse" Collapsed="true">
+    <Position X="14" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAgAAAAAAAQAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.GetInvoicesResponse" Collapsed="true">
+    <Position X="18.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAACAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.SearchPaymentPlansResponse" Collapsed="true">
+    <Position X="23" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAQAABAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.UpdateOrderResponse" Collapsed="true">
+    <Position X="27.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.SumOfAmountResponse" Collapsed="true">
+    <Position X="32" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAASQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.ApproveInvoiceResponse" Collapsed="true">
+    <Position X="36.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.CreateOrderResponse" Collapsed="true">
+    <Position X="41" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAQAAAAAAAAAAAAAAAABAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.ReleasePendingResponse" Collapsed="true">
+    <Position X="45.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.GetFinancialReportResponse" Collapsed="true">
+    <Position X="50" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAQEIAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.GetInvoiceReportResponse" Collapsed="true">
+    <Position X="54.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEIAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.GetAccountingReportResponse" Collapsed="true">
+    <Position X="59" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEIAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.GetRegressionReportResponse" Collapsed="true">
+    <Position X="63.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEIAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.GetPaymentPlanReportResponse" Collapsed="true">
+    <Position X="68" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEIAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.GetInvoiceJournalReportResponse" Collapsed="true">
+    <Position X="72.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEIAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.PdfLinkResponse" Collapsed="true">
+    <Position X="77" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAIAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.GetOrderEventsResponse" Collapsed="true">
+    <Position X="81.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.GetInvoicesWithChangedDueDateResponse" Collapsed="true">
+    <Position X="86" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEIAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.ChangeInvoiceDueDateResponse" Collapsed="true">
+    <Position X="90.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.CreateApprovedOrderResponse" Collapsed="true">
+    <Position X="95" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABEAAAQAAgAAAAAAgAAAACAQgABGIAAAIAABAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.CancelPaymentPlanRowsResponse" Collapsed="true">
+    <Position X="7.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.CancelPaymentPlanAmountResponse" Collapsed="true">
+    <Position X="11.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.GetPendingReasonsResponse" Collapsed="true">
+    <Position X="16.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.SearchAccountCreditsResponse" Collapsed="true">
+    <Position X="20.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAQABBAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.GetAccountCreditsResponse" Collapsed="true">
+    <Position X="25.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.CancelAccountCreditAmountResponse" Collapsed="true">
+    <Position X="29.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.CancelAccountCreditRowsResponse" Collapsed="true">
+    <Position X="34.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.GetClientIdResponse" Collapsed="true">
+    <Position X="38.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.AccountCreditRegressReportResponse" Collapsed="true">
+    <Position X="43.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.AccountingAgreementType25ReportResponse" Collapsed="true">
+    <Position X="47.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAEAAAAAAAQAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.GetClientsByIdentityAccountResponse" Collapsed="true">
+    <Position X="52.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.GetInvoicesPaidToClientForReportResponse" Collapsed="true">
+    <Position X="56.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAACAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.GetDebtInvoicesPaidToClientForReportResponse" Collapsed="true">
+    <Position X="61.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAACAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.GetKickbackReportResponse" Collapsed="true">
+    <Position X="65.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.GetOrdersResponse" Collapsed="true">
+    <Position X="70.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.Order" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="128.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gQNgAggCAAACCAEEojAAFglAiiDhGBAMSoAAQgYAAEA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.SpecificationSummation" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="125" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACQAAQAEAAAAAAABAAgAAAAAAEAAAAAAIAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.SpecificationRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="123.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAMAAACAAgAAAQiACAAAACAggAAAAAFAABAAAIAQAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.DeliverOrderResult" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="116.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAACAAAAAAEAgkAAQAAAgAAgGBAEAIAgAAIAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.OrderListItem" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="111" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgIkBA4GAAAAABEBogAAAACAwAAgGAQmCoAAhAIQCAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.OrderRowReferenceItem" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="114.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAQIAAAAAAAAEIAAgAAAAAAEAAAAAAIAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.InvoiceListItem" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="128.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AhIkJA4GJCAAACEAiAARAACAwAAwDACsAYAAAAISAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.Invoice" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="119.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gRM0IAIGICAAAKEEqBARAgCAigGwDDiORcAAQkYCKAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.PaymentPlanListItem" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="125" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgIkFAwGAAAgAAEAgAAAAACAwAEhCAAkRIAAABIQAAQ=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.CreateOrderResult" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="109.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABEAAASAAAAAAAAAgAAAACAxAAJGIAEAIAABAIAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.FinancialReportHeader" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="121.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAACAAgAAAAAAAAAAAAEiAGAAACGQAAABAIBAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.FinancialReportRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="123.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAACAASoAAABAAAAEAQQkAAAAAAEAAAAAAIAQBA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.InvoiceReportRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="109.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gBgEIYACAAgAgAASgAAAAASBggAgDDAEAIAAQAIAACA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.AccountingReportRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="125" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAADAASAgAABgAAAAAYAkAggAAAEAAAgAAJAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.RegressionReportRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="123.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wBgBIYADAAgIgAAggAACEAYBggAkDBkkAIMIABIAQAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.PaymentPlanReportRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="130.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kBgEIAADAAAAgAACgAAAAAaBgIAgCBIFAIAEAIIAACA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.InvoiceJournalReportRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="126.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gCAAMAIDAAAAgAAAgABAAAYAgAAkDBAEAgAAABIAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.OrderEvent" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="130.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>yAAAAAAiAIAAAAEAgAAAAAAEgQAgCAAEAIAAEAYAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.PendingEvent" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="112.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgCAIACAAAIABAgAAAAgAAAAAAEAAAAQAIEAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.InvoiceWithChangedDueDate" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="116.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAQCAAAAACAAiAAQAAAAgAAgBACEAAAAAAIAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.PendingReason" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="114.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAACAAAAAAAAAAAAAAAAgAAAAAAEGgAAAAIAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.AccountCreditListItem" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="116.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgIkBAwGIAAAAAEAgAABAACAyAChCAAkCoAAEAIQAAQ=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.AccountCreditItem" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="114.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>0QEEAAACAAAACBAAgAAAAACAiEChABQ0AAAAUIIAAAQ=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.CreditReportStatus" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="121.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wAAAQAACAAAAAAAAAAAAAAAAgAAAAAAEAAAAABIAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.AccountCreditRegressReportDataRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="118" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ApkEIAACRAgABAACgAACAACByAChDAFkRIAgUAIAgAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.AccountingAgreementType25ReportDataRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="121.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABhEIAACAAgAgAAEAAAAAASBgAgACAAEAIACEAJAICA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.AccountingAgreementType25Summation" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="123.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIACAAACAAyoAAABgAAAEAAAkAAgAAAEAAAgkAIAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.ClientData" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="126.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAACAAAAAAAAgAAEAAAAiAOgAAAEAAAAAAIAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.InvoicePaidToClientRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="130.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABgEIAACABAAAAAQgEAAAACBgAAgDCAEAIAAAAIAACA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.KickbackReportRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="119.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAEIAACAAAQAAAACAACAACAgAAABBGEAAAEAAIAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.AccountCreditDetails" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="111" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAgAAAAAAAAAAgAAEAAAEAAAAAAIAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.PaymentPlanDetails" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="121.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAgAAAAAAAAAAgAAFAAAEQAAAABIAAAQ=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.AdminWS.AdminServiceClient" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="109.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QRA4C8BADKIQQSAsAAAwgAQAwKAAACBAQAAaACAABAg=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.OrderRequest" Collapsed="true">
+    <Position X="30" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQEAAAAAAAQAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.ClientOrderInfo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="109.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CGAAAgACBAADEADAAEgBIgAAggAAAAAAQIAAAAAIAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.CampaignCodeInfo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="118" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACCEACAhAgBwAgACEAAABAhIAIAABhgAAAQgAAAAI=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.AccountCreditCampaignCodeInfo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="109.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQCCEAKAgAgBwAAAAAAAQAQgIAAAABAgAAAAAAAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.AccountCreditResultDetails" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="119.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAQAAAAgAABAAAAAgAABAAAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.PaymentPlanResultDetails" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="109.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAgAABAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.InvoiceResultDetails" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="111" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BCAQIAACAAAABCAQAAAAAAAAgAAAAACgAAAAAAACAAE=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.DeliverOrderResult" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="114.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CBEAAAACAAAAAAAAAgBEAACAgAAAAAAABAAAEQAAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.CreateOrderResult" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="111" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAACACAAAAEAIAAgAEAACAwgAJCIAAAAQAAAAAAAQ=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.CustomerIdentity" Collapsed="true">
+    <Position X="11.75" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BiCAAAACBCgAAIgAIAaQQAUAkEAAAAgDAIMAAAgBBAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.IndividualIdentity" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="116.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKAAAEACgAAAAAAAAACAAAQAgAAAAAAAAAAAAAAAACg=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.CompanyIdentity" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="119.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgACAAAAAAAAAAABAAAAgAAAAAAAAAAAAQgAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.CampainCodeInfo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="119.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAASCEACAjAgBQAgACEBAABAooAIAAIggAAAAgAAAAI=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.AddressItem" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="130.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RqAAAEACAAAAAAAAAAASAAAAgAAAAAACAIAAAAAAAAg=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.Address" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="126.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKCAAEACAAAAAIgAIAQAAAAAkEAAAAABAAIAAAgBAAg=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.GetAddressesResult" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="111" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAACAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.CustomerAddress" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="125" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AOgAAEICgAAAAASAABgAwgEEgAAAAABAAAAAgQAQIAg=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.PaymentPlanOption" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="126.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAASCEACAiAgBQEAACEBAABAooAQAAICgABAAAAAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.InvoiceStatus" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="112.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QABQAoACAAAAACAAAgABAAAQgAAABBCgAAAAAAAgAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.OrderStatus" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="116.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QBAAAgECKAACEABAFBgAACCBwAAAAAAAAAQAACAAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.CreditReportCustomer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="119.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAICAAAAAASAABgAwAEEgAAAAABAAAAAgAAQIAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.BasicResponse" Collapsed="true">
+    <Position X="28.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EQAAQAACAAAAAAgAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.GetContractPdfEuResponse" Collapsed="true">
+    <Position X="41.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAACAAAAAKAACAAAAAIAAAAAQAAAAAAgAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.GetPaymentPlanContractDetailsEuResponse" Collapsed="true">
+    <Position X="43.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACkAQBBAAAAAAAAAEAACAAAAAAAAAQAAAAAAgAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.GetPaymentPlanParamsEuResponse" Collapsed="true">
+    <Position X="48" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIhAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.GetAccountCreditParamsEuResponse" Collapsed="true">
+    <Position X="50.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAABAAAAAAAAAAAAAAAAAAAAAAABAAAAAAgAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.DeliverOrderEuResponse" Collapsed="true">
+    <Position X="54.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAACAAAAAAAQAAgAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.CloseOrderEuResponse" Collapsed="true">
+    <Position X="3" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.CreateOrderEuResponse" Collapsed="true">
+    <Position X="7.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAQAAAAAAAAAAAAAEAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.GetPaymentPlanParamsResponse" Collapsed="true">
+    <Position X="9.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIBAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.GetAddressesEuResponse" Collapsed="true">
+    <Position X="14.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAQIAAAAAgAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.AddToBlockListResponse" Collapsed="true">
+    <Position X="16.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.GetCustomerAddressesResponse" Collapsed="true">
+    <Position X="21" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAACAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.GetContractPdfResponse" Collapsed="true">
+    <Position X="25.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAACAAAAAKAACAAQAAIAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.GetPaymentPlanOptionsResponse" Collapsed="true">
+    <Position X="30" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAIAAAAAAAAAAAEAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.ApprovePaymentPlanResponse" Collapsed="true">
+    <Position X="34.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAQAAABAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.CancelPaymentPlanResponse" Collapsed="true">
+    <Position X="36.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.GetPaymentPlanStatusResponse" Collapsed="true">
+    <Position X="39" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAEAAAAAAAAAAAAAAAQIAAAAAIAAAAAAAAAIAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.CreatePaymentPlanResponse" Collapsed="true">
+    <Position X="45.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAABACATAAAFgAAAAIAiBAAAAAQ=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.CheckInternalScoringResponse" Collapsed="true">
+    <Position X="52.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQCAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.GetOrdersResponse" Collapsed="true">
+    <Position X="5.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAACAAAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.CloseOrderResponse" Collapsed="true">
+    <Position X="12" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.ChangeOrderInfoResponse" Collapsed="true">
+    <Position X="18.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.CreateInvoiceResponse" Collapsed="true">
+    <Position X="23.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQIKAQACACAGAAAhAJAAAQAAAACBDgQhAAAAABABA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.ChangeOrderAmountResponse" Collapsed="true">
+    <Position X="27.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.OrderResponse" Collapsed="true">
+    <Position X="32.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAACAAAEAAAABAgACARQgAAgAAAAAQAAAAAAAQ=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.DeliverAccountCreditDetails" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="130.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAACAAAAAAAAAAAAAAAAgABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.OrderRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="112.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FCgCCAACAAQggAADIAAAAEkAgAABCAACAAAAIAAUhAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.DeliverInvoiceDetails" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="109.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BABgiAACAAAAAAAQAAACAAAAgEBAACAAEFAAIAAAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.DeliverOrderInformation" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="112.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EBAAAgACAAAAAAIAAgAAAAAAgAAACAAAAAAAAAAAhAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.CloseOrderInformation" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="116.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAIAAAAAAAAAgAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.CreateAccountCreditDetails" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="126.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAgAAAAAAAAAAgAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.CreatePaymentPlanDetails" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="112.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAQCAAQAAgAIACAAAAAAgAAAAABAAAAAAAAAABA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.CreateOrderInformation" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="130.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DFAACiACAAAAEAAAAgAFIgAAggBIAQABQAAAACAAEAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.GetAddressesInformation" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="109.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BiCAAAACAAAAAAAAAAAQAAAAgAAAAAABAIAAAAAAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.ClientPaymentPlanInfo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="111" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AGAkEAACJAIBEACAAAhAAgAAsAAAACIAwIBAAAAIABA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.ClientInvoiceInfo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="128.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAACgAQAEAQAAAAAAAAAgAAIAAAAEAAAIAAAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.ClientInvoiceRowInfo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="130.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAwCAAACIAAgAAABIAAAAEAAhAAAAAAAAAgAIAAEgAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.ClientAuthInfo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="125" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQCAAAAAAAEAQAAAAAAgAAAAAACAAAIAIAAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.BasicRequest" Collapsed="true">
+    <Position X="28.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAACAAAAAAAAAAgAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.GetContractPdfEuRequest" Collapsed="true">
+    <Position X="16.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.GetPaymentPlanContractDetailsEuRequest" Collapsed="true">
+    <Position X="21" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACgAQAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.GetPaymentPlanParamsEuRequest" Collapsed="true">
+    <Position X="25.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.GetAccountCreditParamsEuRequest" Collapsed="true">
+    <Position X="27.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.DeliverOrderEuRequest" Collapsed="true">
+    <Position X="32.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.CloseOrderEuRequest" Collapsed="true">
+    <Position X="34.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.CreateOrderEuRequest" Collapsed="true">
+    <Position X="36.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.GetPaymentPlanParamsRequest" Collapsed="true">
+    <Position X="39" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.GetAddressesEuRequest" Collapsed="true">
+    <Position X="41.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAEAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.AddToBlockListRequest" Collapsed="true">
+    <Position X="43.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAACAAAgAAAAAAAAAAAAAAAAABAAIAAE=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.GetCustomerAddressesRequest" Collapsed="true">
+    <Position X="45.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAABAACAAAgAAAAAgAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.GetContractPdfRequest" Collapsed="true">
+    <Position X="48" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiAAAAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.GetPaymentPlanOptionsRequest" Collapsed="true">
+    <Position X="50.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAQAAAAAAAAEAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.ApprovePaymentPlanRequest" Collapsed="true">
+    <Position X="52.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiAAAAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.CancelPaymentPlanRequest" Collapsed="true">
+    <Position X="54.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiAAAAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.GetPaymentPlanStatusRequest" Collapsed="true">
+    <Position X="3" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiAAAAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.CreatePaymentPlanRequest" Collapsed="true">
+    <Position X="5.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAQAAAAAAAAEAACBAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.CheckInternalScoringRequest" Collapsed="true">
+    <Position X="7.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAABAACAAAgEAACAgAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.GetOrdersRequest" Collapsed="true">
+    <Position X="9.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAACAABAABAAAAAAAAAgAQAAAAQAAAAAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.CloseOrderRequest" Collapsed="true">
+    <Position X="12" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.ChangeOrderInfoRequest" Collapsed="true">
+    <Position X="14.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAQAAgAAAAAAAACBEAQAAAAAEAAAAAAAQiAAAAAIA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.CreateInvoiceRequest" Collapsed="true">
+    <Position X="18.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAgAAAAAAAAAAAAAAQAAAAAAQA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.ChangeOrderAmountRequest" Collapsed="true">
+    <Position X="23.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAABAAAAAAAAAAAAAAAAQAAAAAAQA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayWS.ServiceSoapClient" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="118" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAQogBAAQAQAAAEBQgIAgAGEADAAAAAQAAAAAEAE=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Util.Calculation.MathUtil" Collapsed="true">
+    <Position X="125" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAIAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Util\Calculation\MathUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Util.Constant.InvoiceType" Collapsed="true">
+    <Position X="114.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAABAAAAACAAAGAAAACAQAAAAAAAAACAAgAABAAAA=</HashCode>
+      <FileName>Util\Constant\InvoiceType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Util.Constant.PaymentMethod" Collapsed="true">
+    <Position X="119.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>pQAAAAAAAAEAAABAgAAAEAAKAQEAQAAAACCgAAAIAAA=</HashCode>
+      <FileName>Util\Constant\PaymentMethod.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Util.Constant.PaymentPlanType" Collapsed="true">
+    <Position X="111" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAEAAAAAAAQAAAAABAACACwCgAgAAAAAAA=</HashCode>
+      <FileName>Util\Constant\PaymentPlanType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Util.Security.Base64Util" Collapsed="true">
+    <Position X="116.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Util\Security\Base64Util.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Util.Security.HashUtil" Collapsed="true">
+    <Position X="123.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\Security\HashUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Util.Testing.TestingTool" Collapsed="true">
+    <Position X="109.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIABAKCrIAAAAFAAoAAhAEAgAECEICQCgQQAAQAA=</HashCode>
+      <FileName>Util\Testing\TestingTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Util.Xml.Utf8StringWriter" Collapsed="true">
+    <Position X="116.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Util\Xml\Utf8StringWriter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayAdmin" Collapsed="true">
+    <Position X="118" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAIAAAAABBAAAIQAAAAAAAAAAAASAIAABAA=</HashCode>
+      <FileName>WebpayAdmin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.WebpayConnection" Collapsed="true">
+    <Position X="119.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAQAAAAAAAAAAAgAKAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>WebpayConnection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Webservice.Getaddresses.GetAddresses" Collapsed="true">
+    <Position X="130.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAQAIgKIAAIAACAAgIJAIAAggAAAAAgkAAASAAAA=</HashCode>
+      <FileName>Webservice\Getaddresses\GetAddresses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Webservice.Getpaymentplanparams.GetPaymentPlanParams" Collapsed="true">
+    <Position X="118" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAgAAAAIAAAAAAIIAAAAggAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Webservice\Getpaymentplanparams\GetPaymentPlanParams.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Webservice.Getpaymentplanparams.PaymentPlanPricePerMonth" Collapsed="true">
+    <Position X="128.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Webservice\Getpaymentplanparams\PaymentPlanPricePerMonth.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Webservice.Handleorder.CloseOrder" Collapsed="true">
+    <Position X="112.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACgAAAAAAAAAAAIIAAAAAgAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Webservice\Handleorder\CloseOrder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Webservice.Handleorder.DeliverInvoice" Collapsed="true">
+    <Position X="0.5" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Webservice\Handleorder\DeliverInvoice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Webservice.Handleorder.DeliverPaymentPlan" Collapsed="true">
+    <Position X="2.75" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Webservice\Handleorder\DeliverPaymentPlan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Webservice.Handleorder.HandleOrder" Collapsed="true">
+    <Position X="1.75" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgCgBAACAAAAAAIAIAAQAAgAAAAACAAEAgAAAA=</HashCode>
+      <FileName>Webservice\Handleorder\HandleOrder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Webservice.Helper.FuncExtensions" Collapsed="true">
+    <Position X="126.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIAAACQAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Webservice\Helper\FuncExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Webservice.Helper.Maybe&lt;T&gt;" Collapsed="true">
+    <Position X="126.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Webservice\Helper\Maybe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Webservice.Helper.PeppolId" Collapsed="true">
+    <Position X="116.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Webservice\Helper\PeppolId.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Webservice.Helper.WebServiceRowFormatter&lt;T&gt;" Collapsed="true">
+    <Position X="121.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAggAACAgAAEAgEAAkQAAAgoAAQAACAEAAAAAAAAiA=</HashCode>
+      <FileName>Webservice\Helper\WebServiceRowFormatter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Webservice.Payment.InvoicePayment" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Webservice\Payment\InvoicePayment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Webservice.Payment.PaymentPlanPayment" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Webservice\Payment\PaymentPlanPayment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webpay.Integration.CSharp.Webservice.Payment.WebServicePayment" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAoAAgACAAAAgBIAAAAAAgAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Webservice\Payment\WebServicePayment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Webpay.Integration.CSharp.Config.IConfigurationProvider" Collapsed="true">
+    <Position X="109.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAACAAAAAAEAAgACAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Config\IConfigurationProvider.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Webpay.Integration.CSharp.Order.Row.IPriced&lt;T&gt;" Collapsed="true">
+    <Position X="112.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEQAAAAAAAAAAAAIAACIgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Order\Row\IPriced.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Webpay.Integration.CSharp.Order.Row.IRowBuilder" Collapsed="true">
+    <Position X="114.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIEAAAAAgAACAAAAIAAAIAAAAAAAAAAAAgAAAAAABAA=</HashCode>
+      <FileName>Order\Row\IRowBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Webpay.Integration.CSharp.Order.Validator.IOrderValidator" Collapsed="true">
+    <Position X="111" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Order\Validator\IOrderValidator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Webpay.Integration.CSharp.AdminWS.IAdminService" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QRA4C8BADKIQQSAsAAAwgAQAwKAAACBAQAAaACAABAg=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Webpay.Integration.CSharp.AdminWS.IAdminServiceChannel" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Webpay.Integration.CSharp.WebpayWS.ServiceSoap" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAQogBAAQAQAAAEBQgIAgAGEADAAAAAQAAAAAEAE=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Webpay.Integration.CSharp.WebpayWS.ServiceSoapChannel" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Webpay.Integration.CSharp.AdminWS.SpecificationReportType" Collapsed="true">
+    <Position X="119.75" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Webpay.Integration.CSharp.AdminWS.OrderType" Collapsed="true">
+    <Position X="118" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAwAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Webpay.Integration.CSharp.AdminWS.InvoiceDistributionType" Collapsed="true">
+    <Position X="121.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAACAAAAAAAAAAAAAACAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Webpay.Integration.CSharp.AdminWS.OrderDeliveryStatus" Collapsed="true">
+    <Position X="109.25" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAIAAAQAAAAAACAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Webpay.Integration.CSharp.AdminWS.OrderStatus" Collapsed="true">
+    <Position X="116.25" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAIAAAAAAAQgAAAAIACAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Webpay.Integration.CSharp.AdminWS.TextMatchType" Collapsed="true">
+    <Position X="121.5" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAgAACAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Webpay.Integration.CSharp.AdminWS.SortDirection" Collapsed="true">
+    <Position X="112.75" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Webpay.Integration.CSharp.AdminWS.SortOrderProperty" Collapsed="true">
+    <Position X="116.25" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIEAAAAAAEAAgAAAAAAQAAACAAAAoAAAAAACAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Webpay.Integration.CSharp.AdminWS.RowType" Collapsed="true">
+    <Position X="109.25" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAEAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Webpay.Integration.CSharp.AdminWS.InvoicePaymentStatus" Collapsed="true">
+    <Position X="125" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAQAAAACAgAAAABEABQAAAAAAAAgAAAAAAAAAACAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Webpay.Integration.CSharp.AdminWS.TextMatchType1" Collapsed="true">
+    <Position X="123.25" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAgAgAACAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Webpay.Integration.CSharp.AdminWS.SortInvoiceProperty" Collapsed="true">
+    <Position X="114.5" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAEIAAAACAAAAAAAACAQAAACACIAYAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Webpay.Integration.CSharp.AdminWS.PaymentPlanStatus" Collapsed="true">
+    <Position X="125" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAACAAAQAAAAQAAAAAgAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Webpay.Integration.CSharp.AdminWS.TextMatchType2" Collapsed="true">
+    <Position X="125" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAgABCAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Webpay.Integration.CSharp.AdminWS.SortPaymentPlanProperty" Collapsed="true">
+    <Position X="118" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAEAAAAAAEAAAAAAACAQAABCAAARIAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Webpay.Integration.CSharp.AdminWS.CustomerType" Collapsed="true">
+    <Position X="130.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Webpay.Integration.CSharp.AdminWS.OrderEventType" Collapsed="true">
+    <Position X="111" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAACAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Webpay.Integration.CSharp.AdminWS.AddressSource" Collapsed="true">
+    <Position X="111" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAEAAAAAAAAAQgAAAACAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Webpay.Integration.CSharp.AdminWS.AccountCreditStatus" Collapsed="true">
+    <Position X="109.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQIAAAAAACAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Webpay.Integration.CSharp.AdminWS.TextMatchType3" Collapsed="true">
+    <Position X="126.75" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAgABCAAAAoAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Webpay.Integration.CSharp.AdminWS.SortAccountCreditProperty" Collapsed="true">
+    <Position X="111" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UAAAAAAAAAAAAAAAgAAAAACAAAABAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Webpay.Integration.CSharp.AdminWS.InvoiceType" Collapsed="true">
+    <Position X="128.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\AdminWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Webpay.Integration.CSharp.WebpayWS.PaymentPlanTypeCode" Collapsed="true">
+    <Position X="126.75" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Webpay.Integration.CSharp.WebpayWS.InvoiceDistributionType" Collapsed="true">
+    <Position X="123.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAACAAAAAAAAAAAAAACAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Webpay.Integration.CSharp.WebpayWS.OrderType" Collapsed="true">
+    <Position X="119.75" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAwAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Webpay.Integration.CSharp.WebpayWS.CustomerType" Collapsed="true">
+    <Position X="128.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Webpay.Integration.CSharp.WebpayWS.BusinessTypeCode" Collapsed="true">
+    <Position X="114.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAEAAAAAAAACAAAAAAAAAAAAAAAAAAAAAIBA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Webpay.Integration.CSharp.WebpayWS.GetCustomerAddressesRejectionCode" Collapsed="true">
+    <Position X="112.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Webpay.Integration.CSharp.WebpayWS.GetContractPdfRejectionCode" Collapsed="true">
+    <Position X="111" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAQAAAAAAAAACAAAAAQAAgAAAAAAAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Webpay.Integration.CSharp.WebpayWS.ApprovePaymentPlanRejectionCode" Collapsed="true">
+    <Position X="112.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAQAAAAAAAAACAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Webpay.Integration.CSharp.WebpayWS.CancelPaymentPlanRejectionCode" Collapsed="true">
+    <Position X="116.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAQAAAAAAAAACAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Webpay.Integration.CSharp.WebpayWS.GetPaymentPlanStatusRejectionCode" Collapsed="true">
+    <Position X="118" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Webpay.Integration.CSharp.WebpayWS.GetPaymentPlanResponseStatus" Collapsed="true">
+    <Position X="116.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAABAAAAAAAAAAACAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Webpay.Integration.CSharp.WebpayWS.CreatePaymentPlanRejectionCode" Collapsed="true">
+    <Position X="125" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAgBAEAQAAAAAAACAAAAAAAggAABEAAAAAAIA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Webpay.Integration.CSharp.WebpayWS.CheckInternalScoringRejectionCode" Collapsed="true">
+    <Position X="119.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAQAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Webpay.Integration.CSharp.WebpayWS.GetOrdersRejectionCode" Collapsed="true">
+    <Position X="114.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAYAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Webpay.Integration.CSharp.WebpayWS.CloseOrderRejectionCode" Collapsed="true">
+    <Position X="121.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAQAAAAAAAAAAAACAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Webpay.Integration.CSharp.WebpayWS.ChangeOrderInfoRejectionCode" Collapsed="true">
+    <Position X="118" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAQAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Webpay.Integration.CSharp.WebpayWS.InvoiceRejectionCode" Collapsed="true">
+    <Position X="126.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAQAAADAQAAAAAAAAAAAACACAABAAAAAAAAgAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Webpay.Integration.CSharp.WebpayWS.OrderRejectionCode" Collapsed="true">
+    <Position X="112.75" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAgBAhAQAAAAgAACAIAAAACAAAABAAAAAAAIA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Webpay.Integration.CSharp.WebpayWS.RowType" Collapsed="true">
+    <Position X="130.25" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAEAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Webpay.Integration.CSharp.WebpayWS.InvoiceDistributionCode" Collapsed="true">
+    <Position X="119.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\WebpayWS\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Webpay.Integration.CSharp.Util.Constant.CountryCode" Collapsed="true">
+    <Position X="123.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAABACACAEAAAQAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Util\Constant\CountryCode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Webpay.Integration.CSharp.Util.Constant.Currency" Collapsed="true">
+    <Position X="126.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAEAAAAAAAAAAAQAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Util\Constant\Currency.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Webpay.Integration.CSharp.Util.Constant.DistributionType" Collapsed="true">
+    <Position X="109.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAQAAAAAAAAAIAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Util\Constant\DistributionType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Webpay.Integration.CSharp.Util.Constant.LanguageCode" Collapsed="true">
+    <Position X="130.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAACAIAAAAAAAAAAoAAAQAAAAACAAAAEAAAIAAA=</HashCode>
+      <FileName>Util\Constant\LanguageCode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Webpay.Integration.CSharp.Util.Constant.OrderRowStatus" Collapsed="true">
+    <Position X="114.5" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAIAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Util\Constant\OrderRowStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Webpay.Integration.CSharp.Util.Constant.OrderType" Collapsed="true">
+    <Position X="121.5" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAQEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\Constant\OrderType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Webpay.Integration.CSharp.Util.Constant.PaymentMethodType" Collapsed="true">
+    <Position X="123.25" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAEAAAAgAAAAAAAAAAAAQEAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Util\Constant\PaymentMethodType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Webpay.Integration.CSharp.Util.Constant.PaymentType" Collapsed="true">
+    <Position X="128.5" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAQAAAAAEAQEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\Constant\PaymentType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -210,6 +210,7 @@
     <None Include="app.config">
       <SubType>Designer</SubType>
     </None>
+    <None Include="WebpayIntegrationClassDiagram.cd" />
     <None Include="Service References\AdminWS\AdminService1.wsdl" />
     <None Include="Service References\AdminWS\AdminService10.xsd">
       <SubType>Designer</SubType>

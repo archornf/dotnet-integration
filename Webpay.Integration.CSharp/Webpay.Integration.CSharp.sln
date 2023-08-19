@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webpay.Integration.CSharp.Test", "Webpay.Integration.CSharp.Test\Webpay.Integration.CSharp.Test.csproj", "{9DCD3B6B-C40C-4416-A970-25623E57EAA5}"
 EndProject
@@ -13,6 +13,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webpay.Integration.CSharp", "Webpay.Integration.CSharp\Webpay.Integration.CSharp.csproj", "{7F1E3F74-6C5A-45EA-BFA6-28133010A136}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webpay.Integration.CSharp.IntegrationTest", "IntegrationTest\Webpay.Integration.CSharp.IntegrationTest.csproj", "{072F5580-04B7-4B70-801E-E8325455D157}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stage", "Stage\Stage.csproj", "{229AF924-D6B8-4C94-83E8-E93B41DAFB78}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -40,6 +42,14 @@ Global
 		{072F5580-04B7-4B70-801E-E8325455D157}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{072F5580-04B7-4B70-801E-E8325455D157}.Release|Any CPU.Build.0 = Release|Any CPU
 		{072F5580-04B7-4B70-801E-E8325455D157}.Release|x86.ActiveCfg = Release|Any CPU
+		{229AF924-D6B8-4C94-83E8-E93B41DAFB78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{229AF924-D6B8-4C94-83E8-E93B41DAFB78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{229AF924-D6B8-4C94-83E8-E93B41DAFB78}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{229AF924-D6B8-4C94-83E8-E93B41DAFB78}.Debug|x86.Build.0 = Debug|Any CPU
+		{229AF924-D6B8-4C94-83E8-E93B41DAFB78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{229AF924-D6B8-4C94-83E8-E93B41DAFB78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{229AF924-D6B8-4C94-83E8-E93B41DAFB78}.Release|x86.ActiveCfg = Release|Any CPU
+		{229AF924-D6B8-4C94-83E8-E93B41DAFB78}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
