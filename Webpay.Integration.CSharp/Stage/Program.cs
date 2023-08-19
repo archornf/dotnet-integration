@@ -10,7 +10,8 @@ namespace SveaWebpayIntegration
 {
     public class Program
     {
-        public static void Main()
+        //public static void Main()
+        public static void MainOld()
         {
             Console.WriteLine("Start");
             //MyConfigTest confTest = new MyConfigTest();

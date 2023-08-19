@@ -41,8 +41,8 @@ namespace Stage
                                                              .SetCurrency(TestingTool.DefaultTestCurrency)
                                                              .UseInvoicePayment()
                                                              .DoRequest();
-            Console.WriteLine(response.ResultCode);
-            Console.WriteLine(response.Accepted);
+            Console.WriteLine(response.ResultCode); // 0
+            Console.WriteLine(response.Accepted); // True
         }
     }
 }

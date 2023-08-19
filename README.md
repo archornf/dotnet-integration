@@ -1,3 +1,9 @@
+Instal nuget packages:
+
+Microsoft.VisualStudio.TestTools.UnitTesting / Microsoft.VisualStudio.UnitTesting
+Microsoft.NET.Test.Sdk
+
+
 # C#/.Net Integration Package API for Svea Webpay
 
 ## Table of contents
