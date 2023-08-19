@@ -22,10 +22,8 @@ namespace Stage
             _conf = conf;
         }
 
-        internal void TestOrder()
+        public void TestOrder()
         {
-            //Create a class including test authorization
-            //IConfigurationProvider confTest = new MyConfigTest();
             //Create a class including production authorization
             //MyConfigProd confProd = new MyConfigProd();
 
@@ -35,42 +33,16 @@ namespace Stage
                                                              .AddOrderRow(TestingTool.CreateExVatBasedOrderRow())
                                                              .AddOrderRow(TestingTool.CreateExVatBasedOrderRow())
                                                              .AddCustomerDetails(Item.IndividualCustomer()
-                                                                                     .SetNationalIdNumber(TestingTool.DefaultTestIndividualNationalIdNumber)
-                                                                                     .SetIpAddress("123.123.123"))
+                                                             .SetNationalIdNumber(TestingTool.DefaultTestIndividualNationalIdNumber)
+                                                             .SetIpAddress("123.123.123"))
                                                              .SetCountryCode(TestingTool.DefaultTestCountryCode)
                                                              .SetOrderDate(TestingTool.DefaultTestDate)
                                                              .SetClientOrderNumber(TestingTool.DefaultTestClientOrderNumber)
                                                              .SetCurrency(TestingTool.DefaultTestCurrency)
                                                              .UseInvoicePayment()
                                                              .DoRequest();
-
             Console.WriteLine(response.ResultCode);
             Console.WriteLine(response.Accepted);
-
-            //private CreateOrderEuResponse response = WebpayConnection.CreateOrder(confTest)		//See Configuration chapt.3
-            ////For all products and other items
-            //.AddOrderRow(Item.OrderRow())
-            ////If shipping fee
-            //.AddFee(Item.ShippingFee())
-            ////If invoice with invoice fee
-            //.AddFee(Item.InvoiceFee()...)
-            ////If discount or coupon with fixed amount
-            //.AddDiscount(Item.FixedDiscount()...)
-            ////If discount or coupon with percent discount
-            //.AddDiscount(Item.RelativeDiscount()...)
-            ////Individual customer values
-            //.AddCustomerDetails(Item.IndividualCustomer()...)
-            ////Company customer values
-            //.AddCustomerDetails(Item.CompanyCustomer()...)
-            ////Other values
-            //.SetCountryCode(CountryCode.SE)
-            //.SetOrderDate(new DateTime(2012, 12, 12))
-            //.SetCustomerReference("ref33")
-            //.SetClientOrderNumber("33")
-            //.SetCurrency(Currency.SEK)
-            ////Continue as an invoice payment
-            //.UseInvoicePayment()...
-            //.DoRequest();
         }
     }
 }
