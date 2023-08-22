@@ -9,7 +9,7 @@ using Webpay.Integration.CSharp.Util.Constant;
 
 namespace Stage
 {
-    internal class MyConfigTest : IConfigurationProvider
+    internal class MyConfigTest : Webpay.Integration.CSharp.Config.IConfigurationProvider
     {
         private const string myUserName = "sverigetest";
         private const string myPassword = "sverigetest";

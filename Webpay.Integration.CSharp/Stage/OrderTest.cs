@@ -16,8 +16,8 @@ namespace Stage
 {
     internal class OrderTest
     {
-        private readonly IConfigurationProvider _conf;
-        internal OrderTest(IConfigurationProvider conf)
+        private readonly Webpay.Integration.CSharp.Config.IConfigurationProvider _conf;
+        internal OrderTest(Webpay.Integration.CSharp.Config.IConfigurationProvider conf)
         {
             _conf = conf;
         }
