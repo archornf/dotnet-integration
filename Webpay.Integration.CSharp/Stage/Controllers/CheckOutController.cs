@@ -13,7 +13,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Cart = Stage.Models.Cart;
 
-namespace Sample.AspNetCore.Controllers;
+namespace Stage.Controllers;
 
 using System.Data.SqlTypes;
 

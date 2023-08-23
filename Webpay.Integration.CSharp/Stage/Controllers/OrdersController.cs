@@ -11,7 +11,7 @@ using Stage.Models.ViewModels;
 using Order = Stage.Models.Order;
 
 
-namespace Sample.AspNetCore.Controllers
+namespace Stage.Controllers
 {
     public class OrdersController : Controller
     {

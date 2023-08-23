@@ -35,31 +35,37 @@ namespace Stage
             services.Configure<SveaApiUrls>(sveaApiUrlsSettings);
             var sveaApiUrls = sveaApiUrlsSettings.Get<SveaApiUrls>();
 
-            //var credentialsSettings = Configuration.GetSection("Credentials");
-            //services.Configure<List<Credentials>>(credentialsSettings);
-            //var credentials = credentialsSettings.Get<List<Credentials>>();
+            var credentialsSettings = Configuration.GetSection("Credentials");
+            services.Configure<List<Credentials>>(credentialsSettings);
+            var credentials = credentialsSettings.Get<List<Credentials>>();
 
-            //var merchantSettingsSettings = Configuration.GetSection("MerchantSettings");
-            //services.Configure<MerchantSettings>(sveaApiUrlsSettings);
-            //var merchantSettings = merchantSettingsSettings.Get<MerchantSettings>();
+            var merchantSettingsSettings = Configuration.GetSection("MerchantSettings");
+            services.Configure<MerchantSettings>(sveaApiUrlsSettings);
+            var merchantSettings = merchantSettingsSettings.Get<MerchantSettings>();
 
-            //services.Configure<List<MarketSettings>>(Configuration.GetSection("Markets"));
+            services.Configure<List<MarketSettings>>(Configuration.GetSection("Markets"));
 
-            //services.AddTransient(s => merchantSettings);
+            services.AddTransient(s => merchantSettings);
             services.AddDbContext<StoreDbContext>(options => options.UseInMemoryDatabase("Products"));
             services.AddControllersWithViews();
-            services.AddControllers().AddJsonOptions(opt => opt.JsonSerializerOptions.PropertyNameCaseInsensitive = true);
+            //services.AddControllers().AddJsonOptions(opt => opt.JsonSerializerOptions.PropertyNameCaseInsensitive = true);
             services.AddDistributedMemoryCache();
 
-            //services.Configure<MerchantSettings>(Configuration.GetSection("MerchantSettings"));
-            //services.AddScoped(provider => SessionCart.GetCart(provider));
-            //services.AddScoped(provider => SessionMarket.GetMarket(provider));
+            services.Configure<MerchantSettings>(Configuration.GetSection("MerchantSettings"));
+            services.AddScoped(provider => SessionCart.GetCart(provider));
+            services.AddScoped(provider => SessionMarket.GetMarket(provider));
 
             services.AddTransient<IHttpContextAccessor, HttpContextAccessor>();
 
+            services.AddMvc(option => option.EnableEndpointRouting = false);
             //var credential = credentials.FirstOrDefault();
             //services.AddSveaClient(sveaApiUrls.CheckoutApiUri, sveaApiUrls.PaymentAdminApiUri, credential?.MerchantId, credential?.Secret);
-            services.AddSession();
+            //services.AddSession();
+            services.AddSession(options => {
+                options.IdleTimeout = TimeSpan.FromHours(12);
+                options.Cookie.Name = ".yourApp.Session";
+                options.Cookie.IsEssential = true;
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -76,11 +82,14 @@ namespace Stage
                 app.UseHsts();
             }
 
+            app.UseStatusCodePages();
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseSession();
             app.UseRouting();
             app.UseAuthorization();
+            app.UseAuthentication();
+            app.UseMvcWithDefaultRoute();
 
             app.UseEndpoints(endpoints =>
             {

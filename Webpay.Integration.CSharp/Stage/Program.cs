@@ -19,9 +19,9 @@ namespace Stage
         {
             Console.WriteLine("Start");
             //MyConfigTest confTest = new MyConfigTest();
-            Webpay.Integration.CSharp.Config.IConfigurationProvider confTest = new MyConfigTest();
-            OrderTest orderTest = new OrderTest(confTest);
-            orderTest.TestOrder();
+            //Webpay.Integration.CSharp.Config.IConfigurationProvider confTest = new MyConfigTest();
+            //OrderTest orderTest = new OrderTest(confTest);
+            //orderTest.TestOrder();
 
             // Launch testing site
             var host = CreateHostBuilder(args).Build();
@@ -34,7 +34,6 @@ namespace Stage
 
             host.Run();
         }
-
 
         // Along with using Microsoft.Extensions.Hosting, ConfigureWebHostDefaults also
         // require using Microsoft.AspNetCore.Hosting;

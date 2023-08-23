@@ -125,9 +125,11 @@ namespace Stage.Controllers
 
 
         // GET: Products
-        public async Task<IActionResult> Index()
+        //public async Task<IActionResult> Index()
+        public IActionResult Index()
         {
-            return View(await this.context.Products.ToListAsync());
+            return View();
+            //return View(await this.context.Products.ToListAsync());
         }
 
 

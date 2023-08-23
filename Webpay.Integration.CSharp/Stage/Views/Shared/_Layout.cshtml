@@ -1,14 +1,13 @@
 ﻿@using System.Reflection
-@* @using Sample.AspNetCore.Data *@
 @using Stage.Data
 @inject Cart CartService
-@inject StoreDbContext StoreContext
+@*@inject StoreDbContext StoreContext *@
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Sample.AspNetCore</title>
+    <title>@ViewData["Title"] - Stage</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
@@ -32,7 +31,7 @@
                         </li>
 
 
-                        @if (StoreContext.Orders.Any())
+                        @*@if (StoreContext.Orders.Any())
                         {
                             <li class="nav-item">
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Orders" asp-action="Details">Orders</a>
@@ -44,7 +43,7 @@
                                     </button>
                                 </form>
                             </li>
-                        }
+                        } *@
 
 
                     </ul>
@@ -63,7 +62,7 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2019 - Sample.AspNetCore - <a asp-area="" asp-controller="Cart" asp-action="Privacy">Privacy</a>, Version : <AssemblyVersion />
+            &copy; 2019 - Stage- <a asp-area="" asp-controller="Cart" asp-action="Privacy">Privacy</a>, Version : <AssemblyVersion />
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
