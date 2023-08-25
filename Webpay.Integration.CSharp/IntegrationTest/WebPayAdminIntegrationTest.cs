@@ -346,6 +346,8 @@ namespace Webpay.Integration.CSharp.IntegrationTest
                 ;
 
             ConfirmResponse delivery = builder.DeliverCardOrderRows().DoRequest();
+            //Console.WriteLine("tried to deliver order: " + answer.TransactionId);
+            //Console.WriteLine("answer: " + answer.StatusCode);
             Assert.IsTrue(delivery.Accepted);
 
             // query updated order
