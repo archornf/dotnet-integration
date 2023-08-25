@@ -8,6 +8,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+using Microsoft.VisualStudio.TestPlatform.ObjectModel;
+
 namespace Webpay.Integration.CSharp.WebpayWS {
     
     
@@ -1347,6 +1349,53 @@ namespace Webpay.Integration.CSharp.WebpayWS {
             }
         }
         
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace = "https://webservices.sveaekonomi.se/webpay")]
+    public partial class Navigation : object, System.ComponentModel.INotifyPropertyChanged
+    {
+
+        private string confirmationUrl;
+
+        private string rejectionUrl;
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string ConfirmationUrl {
+            get {
+                return this.confirmationUrl;
+            }
+            set {
+                this.confirmationUrl = value;
+                this.RaisePropertyChanged("ConfirmationUrl");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string RejectionUrl {
+            get {
+                return this.rejectionUrl;
+            }
+            set {
+                this.rejectionUrl = value;
+                this.RaisePropertyChanged("RejectionUrl");
+            }
+        }
+
         public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
         
         protected void RaisePropertyChanged(string propertyName) {
@@ -4851,6 +4900,9 @@ namespace Webpay.Integration.CSharp.WebpayWS {
         private CreatePaymentPlanDetails createPaymentPlanDetailsField;
         
         private CreateAccountCreditDetails createAccountCreditDetailsField;
+
+        // Optional
+        private Navigation navigation;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]

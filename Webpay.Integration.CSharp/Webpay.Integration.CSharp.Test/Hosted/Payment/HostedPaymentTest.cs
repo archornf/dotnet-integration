@@ -130,7 +130,16 @@ namespace Webpay.Integration.CSharp.Test.Hosted.Payment
         [Test]
         public void TestExcludeInvoicesAndAllInstallmentsAllCountries()
         {
-            var payment = new FakeHostedPayment(null);
+            CreateOrderBuilder order = WebpayConnection.CreateOrder(SveaConfig.GetDefaultConfig())
+                                                       .SetCountryCode(TestingTool.DefaultTestCountryCode)
+                                                       .SetClientOrderNumber(TestingTool.DefaultTestClientOrderNumber)
+                                                       .SetCurrency(TestingTool.DefaultTestCurrency)
+                                                       .AddOrderRow(Item.OrderRow()
+                                                                        .SetAmountExVat(4)
+                                                                        .SetVatPercent(25)
+                                                                        .SetQuantity(1))
+                                                       .AddCustomerDetails(TestingTool.CreateCompanyCustomer());
+            var payment = new FakeHostedPayment(order);
             var exclude = new ExcludePayments();
             List<string> excludedPaymentMethod = payment.GetExcludedPaymentMethod();
             excludedPaymentMethod.AddRange(exclude.ExcludeInvoicesAndPaymentPlan());
