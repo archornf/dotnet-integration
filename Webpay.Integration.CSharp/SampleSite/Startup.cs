@@ -5,6 +5,8 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.EntityFrameworkCore;
+using SampleSite.Data;
 //using Stage.Data;
 //using Stage.Extensions;
 //using Stage.Models;
@@ -31,8 +33,12 @@ namespace SampleSite
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddRazorPages();
-            services.AddMvc();
+            //services.AddRazorPages();
+            //services.AddMvc();
+            services.AddControllersWithViews();
+
+            services.AddDbContext<SampleSiteContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("SampleSiteContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -56,9 +62,9 @@ namespace SampleSite
             {
                 endpoint.MapControllerRoute(name: "default",
                   pattern: "{controller=Home}/{action=Index}/{id?}");
-                endpoint.MapControllerRoute(name: "default",
-                  pattern: "{controller=HelloWorld}/{action=Index}/{id?}");
-                endpoint.MapRazorPages();
+                //endpoint.MapControllerRoute(name: "default",
+                //  pattern: "{controller=HelloWorld}/{action=Index}/{id?}");
+                //endpoint.MapRazorPages();
             });
         }
     }
