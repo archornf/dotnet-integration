@@ -1359,17 +1359,17 @@ namespace Webpay.Integration.CSharp.WebpayWS {
         }
     }
 
+    // Optional
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace = "https://webservices.sveaekonomi.se/webpay")]
+        
     public partial class Navigation : object, System.ComponentModel.INotifyPropertyChanged
     {
-
         private string confirmationUrl;
-
         private string rejectionUrl;
 
         /// <remarks/>
@@ -4901,9 +4901,6 @@ namespace Webpay.Integration.CSharp.WebpayWS {
         
         private CreateAccountCreditDetails createAccountCreditDetailsField;
 
-        // Optional
-        private Navigation navigation;
-        
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
         public string ClientOrderNumber {
@@ -5772,6 +5769,7 @@ namespace Webpay.Integration.CSharp.WebpayWS {
     public partial class CreateOrderEuRequest : BasicRequest {
         
         private CreateOrderInformation createOrderInformationField;
+        private Navigation navigationField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
@@ -5782,6 +5780,18 @@ namespace Webpay.Integration.CSharp.WebpayWS {
             set {
                 this.createOrderInformationField = value;
                 this.RaisePropertyChanged("CreateOrderInformation");
+            }
+        }
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public Navigation Navigation {
+            get {
+                return this.navigationField;
+            }
+            set {
+                this.navigationField = value;
+                this.RaisePropertyChanged("Navigation");
             }
         }
     }

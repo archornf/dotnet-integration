@@ -41,11 +41,20 @@ namespace SampleSite
                                                              .SetOrderDate(TestingTool.DefaultTestDate)
                                                              .SetClientOrderNumber(TestingTool.DefaultTestClientOrderNumber)
                                                              .SetCurrency(TestingTool.DefaultTestCurrency)
+                                                             .AddNavigationUrls("https://my_confirmation_url.se", "https://my_rejection_url.se")
                                                              .UseInvoicePayment()
                                                              .DoRequest();
 
-            Console.WriteLine(response.ResultCode);
-            Console.WriteLine(response.Accepted);
+            Console.WriteLine(response.ResultCode); // 0
+            Console.WriteLine(response.Accepted); // True
+            Console.WriteLine(response.ErrorMessage);
+            PrintCreateOrderResult(response.CreateOrderResult);
+        }
+
+        private void PrintCreateOrderResult(CreateOrderResult res)
+        {
+            Console.WriteLine("CreateOrderResult:");
+            Console.WriteLine("SveaOrderId: " + res.SveaOrderId);
         }
     }
 }

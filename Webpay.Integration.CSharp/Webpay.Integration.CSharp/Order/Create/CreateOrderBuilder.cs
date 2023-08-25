@@ -32,6 +32,8 @@ namespace Webpay.Integration.CSharp.Order.Create
 
         protected CustomerIdentity CustomerId;
 
+        private Navigation _navigation;
+
         public CreateOrderBuilder(IConfigurationProvider config) : base(config)
         {
             // this space intentionally left blank
@@ -304,6 +306,14 @@ namespace Webpay.Integration.CSharp.Order.Create
             }
             return this;
         }
+
+        public CreateOrderBuilder AddNavigationUrls(string confUrl, string rejUrl)
+        {
+            _navigation = new Navigation() { ConfirmationUrl= confUrl, RejectionUrl = rejUrl };
+            return this;
+        }
+
+        public Navigation Navigation { get { return _navigation; } }
 
         public bool GetIsCompanyIdentity()
         {

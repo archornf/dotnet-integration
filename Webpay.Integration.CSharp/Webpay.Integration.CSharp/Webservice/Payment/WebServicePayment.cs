@@ -8,6 +8,7 @@ using Webpay.Integration.CSharp.WebpayWS;
 using Webpay.Integration.CSharp.Webservice.Helper;
 using System.Linq;
 using System.Linq.Expressions;
+using System;
 
 namespace Webpay.Integration.CSharp.Webservice.Payment
 {
@@ -84,6 +85,8 @@ namespace Webpay.Integration.CSharp.Webservice.Payment
 
             sveaOrder.CreateOrderInformation = SetOrderType(OrderInfo);
 
+            sveaOrder.Navigation = CrOrderBuilder.Navigation;
+
             return sveaOrder;
         }
 
@@ -95,6 +98,9 @@ namespace Webpay.Integration.CSharp.Webservice.Payment
         public CreateOrderEuResponse DoRequest()
         {
             CreateOrderEuRequest request = PrepareRequest();
+            Console.WriteLine("request ClientOrderNumber: " + request.CreateOrderInformation.ClientOrderNumber);
+            Console.WriteLine("request First orderrow description: " + request.CreateOrderInformation.OrderRows[0].Description);
+            Console.WriteLine("request Navigation: ConfirmationUrl: " + request.Navigation.ConfirmationUrl + ", RejectionUrl: " + request.Navigation.RejectionUrl);
 
             Soapsc = new ServiceSoapClient(new BasicHttpBinding
                 {
