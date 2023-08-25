@@ -1,4 +1,5 @@
-﻿using Webpay.Integration.CSharp.AdminWS;
+﻿using System.ServiceModel;
+using Webpay.Integration.CSharp.AdminWS;
 using Webpay.Integration.CSharp.Order.Handle;
 using Webpay.Integration.CSharp.Util.Constant;
 
@@ -32,7 +33,11 @@ namespace Webpay.Integration.CSharp.AdminService
 
             // make request to correct endpoint, return response object
             var endpoint = _builder.GetConfig().GetEndPoint(PaymentType.ADMIN_TYPE);
-            var adminWS = new AdminServiceClient("WcfAdminSoapService", endpoint);
+            //var adminWS = new AdminServiceClient("WcfAdminSoapService", endpoint);
+            var wsBinding = new WSHttpBinding();
+            wsBinding.Name = "WcfAdminSoapService";
+            wsBinding.Security.Mode = SecurityMode.Transport;
+            var adminWS = new AdminServiceClient(wsBinding,new EndpointAddress(endpoint));
             var response = adminWS.CancelPaymentPlanAmount(request);
 
             return response;

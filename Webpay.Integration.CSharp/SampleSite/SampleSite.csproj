@@ -15,4 +15,8 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.9" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Webpay.Integration.CSharp\Webpay.Integration.CSharp.csproj" />
+  </ItemGroup>
+
 </Project>

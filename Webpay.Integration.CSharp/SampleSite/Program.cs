@@ -1,14 +1,15 @@
-//using Stage;
-//using Webpay.Integration.CSharp.Config;
-//using Webpay.Integration.CSharp;
-//using Webpay.Integration.CSharp.Order.Row;
-//using Webpay.Integration.CSharp.Util.Testing;
-//using Webpay.Integration.CSharp.WebpayWS;
+using SampleSite;
+using SampleSite.Models;
+using Webpay.Integration.CSharp.Config;
+using Webpay.Integration.CSharp;
+using Webpay.Integration.CSharp.Order.Row;
+using Webpay.Integration.CSharp.Util.Testing;
+using Webpay.Integration.CSharp.WebpayWS;
 
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-//using Stage.Models;
+
 namespace SampleSite
 {
     public static class Program
@@ -18,9 +19,9 @@ namespace SampleSite
         {
             Console.WriteLine("Start");
             //MyConfigTest confTest = new MyConfigTest();
-            //Webpay.Integration.CSharp.Config.IConfigurationProvider confTest = new MyConfigTest();
-            //OrderTest orderTest = new OrderTest(confTest);
-            //orderTest.TestOrder();
+            Webpay.Integration.CSharp.Config.IConfigurationProvider confTest = new MyConfigTest();
+            OrderTest orderTest = new OrderTest(confTest);
+            orderTest.TestOrder();
 
             // SampleSite
 			// https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/adding-controller?view=aspnetcore-7.0&tabs=visual-studio

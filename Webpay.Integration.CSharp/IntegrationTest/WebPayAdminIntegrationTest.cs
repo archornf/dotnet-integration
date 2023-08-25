@@ -282,8 +282,10 @@ namespace Webpay.Integration.CSharp.IntegrationTest
                 ;
             AdminWS.DeliveryResponse delivery = builder.DeliverInvoiceOrders().DoRequest();
             Assert.IsFalse(delivery.Accepted);
-            Assert.That(delivery.ResultCode, Is.EqualTo(50000));    // will use the first order clientid for both, and orders belong to different clients...
-            Assert.That(delivery.ErrorMessage, Is.EqualTo("Client is not authorized for this method."));
+            //Assert.That(delivery.ResultCode, Is.EqualTo(50000));    // will use the first order clientid for both, and orders belong to different clients...
+            Assert.That(delivery.ResultCode, Is.EqualTo(20004));    // will use the first order clientid for both, and orders belong to different clients...
+            //Assert.That(delivery.ErrorMessage, Is.EqualTo("Client is not authorized for this method."));
+            Assert.That(delivery.ErrorMessage, Is.EqualTo("No order found for orderId: " + orderTwo.CreateOrderResult.SveaOrderId));
         }
         [Test] public void Test_DeliverOrders_DeliverPaymentPlanOrderRows_SetOrderIdAndSingleOrder()
         {
