@@ -1,5 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
-using Svea.WebPay.SDK.CheckoutApi;
+//using Svea.WebPay.SDK.CheckoutApi;
 using System;
 using System.Linq;
 
@@ -47,14 +47,14 @@ namespace Sample.AspNetCore.Models
 
         public virtual void SetLanguage(string languageId)
         {
-            var language = new Language(languageId);
-            LanguageId = languageId;
+            //var language = new Language(languageId);
+            //LanguageId = languageId;
         }
 
         public virtual void SetCurrency(string currencyCode)
         {
-            var currency = new CurrencyCode(currencyCode);
-            CurrencyCode = currency.ToString();
+            //var currency = new CurrencyCode(currencyCode);
+            //CurrencyCode = currency.ToString();
         }
         public virtual void SetCountry(string countryId)
         {

@@ -11,7 +11,7 @@ using Sample.AspNetCore.Models;
 
 namespace Sample.AspNetCore
 {
-    using Svea.WebPay.SDK.Json;
+    //using Svea.WebPay.SDK.Json;
 
     using System;
     using System.Collections.Generic;
@@ -59,7 +59,7 @@ namespace Sample.AspNetCore
             services.AddTransient<IHttpContextAccessor, HttpContextAccessor>();
 
             var credential = credentials.FirstOrDefault();
-            services.AddSveaClient(sveaApiUrls.CheckoutApiUri, sveaApiUrls.PaymentAdminApiUri, credential?.MerchantId, credential?.Secret);
+            //services.AddSveaClient(sveaApiUrls.CheckoutApiUri, sveaApiUrls.PaymentAdminApiUri, credential?.MerchantId, credential?.Secret);
             services.AddSession();
         }
 

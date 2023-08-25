@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Sample.AspNetCore.Data;
 using Sample.AspNetCore.Models.ViewModels;
-using Svea.WebPay.SDK;
+//using Svea.WebPay.SDK;
 using Order = Sample.AspNetCore.Models.Order;
 
 
@@ -16,13 +16,13 @@ namespace Sample.AspNetCore.Controllers
     public class OrdersController : Controller
     {
         private readonly StoreDbContext context;
-        private readonly SveaWebPayClient _sveaClient;
+        //private readonly SveaWebPayClient _sveaClient;
        
-        public OrdersController(StoreDbContext context,
-            SveaWebPayClient sveaClient)
+        public OrdersController(StoreDbContext context)
+            //SveaWebPayClient sveaClient)
         {
             this.context = context;
-            this._sveaClient = sveaClient;
+            //this._sveaClient = sveaClient;
         }
 
 
@@ -96,7 +96,7 @@ namespace Sample.AspNetCore.Controllers
                 {
                     try
                     {
-                        orderViewModel.Order = await this._sveaClient.PaymentAdmin.GetOrder(long.Parse(order.SveaOrderId)).ConfigureAwait(false);
+                        //orderViewModel.Order = await this._sveaClient.PaymentAdmin.GetOrder(long.Parse(order.SveaOrderId)).ConfigureAwait(false);
                         orderViewModel.IsLoaded = true;
                         orderViewModel.ShippingStatus = order.ShippingStatus;
                         orderViewModel.ShippingDescription = order.ShippingDescription;
