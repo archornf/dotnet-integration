@@ -98,9 +98,9 @@ namespace Webpay.Integration.CSharp.Webservice.Payment
         public CreateOrderEuResponse DoRequest()
         {
             CreateOrderEuRequest request = PrepareRequest();
-            Console.WriteLine("request ClientOrderNumber: " + request.CreateOrderInformation.ClientOrderNumber);
-            Console.WriteLine("request First orderrow description: " + request.CreateOrderInformation.OrderRows[0].Description);
-            Console.WriteLine("request Navigation: ConfirmationUrl: " + request.Navigation.ConfirmationUrl + ", RejectionUrl: " + request.Navigation.RejectionUrl);
+            //Console.WriteLine("request ClientOrderNumber: " + request.CreateOrderInformation.ClientOrderNumber);
+            //Console.WriteLine("request First orderrow description: " + request.CreateOrderInformation.OrderRows[0].Description);
+            //Console.WriteLine("request Navigation: ConfirmationUrl: " + request.Navigation.ConfirmationUrl + ", RejectionUrl: " + request.Navigation.RejectionUrl);
 
             Soapsc = new ServiceSoapClient(new BasicHttpBinding
                 {

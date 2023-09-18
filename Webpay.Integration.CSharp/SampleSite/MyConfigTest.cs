@@ -12,9 +12,9 @@ namespace SampleSite
     internal class MyConfigTest : Webpay.Integration.CSharp.Config.IConfigurationProvider
     {
 
-        private const string myUserName = "sverigetest";
-        private const string myPassword = "sverigetest";
-        private const int myClientNumber = 79021;
+        private const string myUserName = "";
+        private const string myPassword = "";
+        private const int myClientNumber = 00000;
         private const string myMerchantId = "123";
         private const string mySecretWord = "asd";
 
